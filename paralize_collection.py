@@ -1,4 +1,4 @@
-from pyspark import SparkContext as sc, SparkConf, SparkContext
+from pyspark import SparkConf, SparkContext
 
 if __name__ == '__main__':
     conf = SparkConf().setAppName("app-name-of-your-choice").setMaster("local[*]")
